@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curated Picks | Thoughtfully Selected Products</title>
+  <meta name="description"
+    content="A curated collection of carefully selected products for focused work and productive living. Honest recommendations, no hype.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">Curated Picks</a>
+      <nav class="header__nav">
+        <a href="index.html" class="header__link header__link--active">Home</a>
+        <a href="#about" class="header__link">About</a>
+        <a href="privacy.html" class="header__link">Privacy</a>
+        <a href="disclosure.html" class="header__link">Disclosure</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2 class="about-section__title">About This Site</h2>
+        <div class="about-section__content">
+          <p>
+            <strong>Curated Picks</strong> is an independent product discovery site focused on
+            well-designed, practical items for everyday life.
+          </p>
+          <p>
+            Instead of ranking dozens of products, we highlight a smaller set that stands out
+            for function, design, or long-term usefulness. Each recommendation solves a specific
+            need — not trends or promotions.
+          </p>
+          <p class="about-section__note">
+            Some links lead to Amazon. Purchases through them may earn a small commission at
+            no extra cost to you. This supports the site but doesn't influence what we feature.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview Section -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Thoughtfully<br>Selected Products</h1>
+        <div class="hero__desc">
+          <p>
+            This site curates practical products for people who value function over flash.
+            Each recommendation is chosen based on build quality, everyday utility, and
+            genuine usefulness—not trends or marketing hype.
+          </p>
+          <p>
+            Whether you're setting up a focused workspace, optimizing your study routine,
+            or simply looking for reliable everyday tools, you'll find straightforward
+            recommendations here. No pressure, no urgency—just honest picks.
+          </p>
+          <p>
+            <strong>Who this is for:</strong> Students, remote workers, makers, and anyone
+            who appreciates well-designed, functional products that solve real problems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Container - Loaded from data/products.json -->
+    <div id="products-container">
+      <!-- Products are loaded dynamically from data/products.json -->
+      <!-- Edit that file to add, modify, or remove products -->
+      <div class="container" style="padding: 4rem 0; text-align: center; opacity: 0.7;">
+        Loading products...
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__disclosure">
+        As an Amazon Associate, this site earns from qualifying purchases.
+        Product links on this page are affiliate links. This does not affect
+        our recommendations or your purchase price.
+      </p>
+      <div class="footer__links">
+        <a href="index.html" class="footer__link">Home</a>
+        <a href="privacy.html" class="footer__link">Privacy Policy</a>
+        <a href="disclosure.html" class="footer__link">Affiliate Disclosure</a>
+      </div>
+      <p class="footer__copyright">
+        © 2026 Curated Picks. All recommendations are based on general product
+        research and may not reflect current availability or specifications.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Load products dynamically -->
+  <script src="js/products.js"></script>
+
+</body>
+
+</html>

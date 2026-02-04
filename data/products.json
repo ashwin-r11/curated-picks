@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "id": "desk-accessories",
+      "number": "01",
+      "title": "Desk Accessories",
+      "intro": "A well-organized workspace reduces friction and helps you focus on what matters. These picks prioritize clean design, durability, and genuine functionality over gimmicks.",
+      "products": [
+        {
+          "name": "Aluminum Monitor Stand with Storage Drawer",
+          "image": "",
+          "description": "Elevates your monitor 4-5 inches to reduce neck strain while providing a hidden drawer for cables, sticky notes, or small accessories. The aluminum construction dissipates heat and supports monitors up to 27 inches. Common options include models from VAYDEER, Grovemade, and similar manufacturers.",
+          "features": [
+            "Raises monitor to ergonomic viewing height",
+            "Built-in drawer keeps desk clutter-free",
+            "Aluminum top acts as passive cooling surface",
+            "Non-slip feet prevent sliding"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=aluminum+monitor+stand+with+drawer&tag=YOUR-TAG-20",
+          "linkText": "View aluminum monitor stands on Amazon"
+        },
+        {
+          "name": "Under-Desk Cable Management Tray (Mesh Steel)",
+          "image": "",
+          "description": "A mesh tray that mounts beneath your desk to hold power strips, adapters, and excess cable length. The open mesh design allows airflow to prevent adapter overheating. Popular models from J Channel, VIVO, and similar brands install with screws or heavy-duty adhesive.",
+          "features": [
+            "Mesh construction prevents heat buildup",
+            "Holds standard 6-outlet power strips",
+            "Keeps cables completely hidden from view",
+            "Easy access when you need to add or remove devices"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=under+desk+cable+management+tray+mesh&tag=YOUR-TAG-20",
+          "linkText": "View cable management trays on Amazon"
+        },
+        {
+          "name": "Extended Desk Mat (Leather or Felt, 80x40cm)",
+          "image": "",
+          "description": "A large surface pad that unifies your keyboard and mouse area while protecting the desk from scratches. Leather options develop patina over time; felt variants offer a softer aesthetic. Look for sizes around 80x40cm (31x16 inches) for full keyboard coverage. Available from Orbitkey, Grovemade, and various manufacturers.",
+          "features": [
+            "Covers full keyboard and mouse area",
+            "Stitched edges prevent fraying",
+            "Non-slip rubber backing",
+            "Easy to wipe clean or replace"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=leather+desk+mat+large&tag=YOUR-TAG-20",
+          "linkText": "View desk mats on Amazon"
+        }
+      ]
+    },
+    {
+      "id": "study-essentials",
+      "number": "02",
+      "title": "Study Essentials",
+      "intro": "Tools that support focused learning and information retention. These picks are practical staples rather than novelty items—things that actually get used day after day.",
+      "products": [
+        {
+          "name": "Hardcover Dot Grid Notebook (A5, 120gsm Paper)",
+          "image": "",
+          "description": "A versatile notebook format that works for notes, diagrams, sketches, and bullet journaling. The 5mm dot grid provides alignment guides without visual clutter. Look for 120gsm+ paper to prevent bleed-through with most pens. Popular options include Leuchtturm1917, Rhodia, and Moleskine.",
+          "features": [
+            "Dot grid allows both structured and freeform use",
+            "Hardcover protects pages in bags",
+            "Lay-flat binding for comfortable writing",
+            "Numbered pages and index for organization"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=dot+grid+notebook+hardcover+a5&tag=YOUR-TAG-20",
+          "linkText": "View dot grid notebooks on Amazon"
+        },
+        {
+          "name": "Adjustable Book Stand (Bamboo or Metal, Foldable)",
+          "image": "",
+          "description": "Holds textbooks, cookbooks, or tablets at an adjustable angle for hands-free reading while you type or cook. Metal page holders keep books open. Foldable designs pack flat for storage or travel. Bamboo versions offer a warm aesthetic; metal versions are more durable.",
+          "features": [
+            "Adjustable angle from 15° to 65°",
+            "Page holders prevent book from closing",
+            "Folds flat to under 2 inches thick",
+            "Supports books up to 4 inches thick"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=adjustable+book+stand+bamboo&tag=YOUR-TAG-20",
+          "linkText": "View book stands on Amazon"
+        }
+      ]
+    },
+    {
+      "id": "workspace-lighting",
+      "number": "03",
+      "title": "Workspace Lighting",
+      "intro": "Proper lighting reduces eye strain and improves focus during long work sessions. These picks emphasize adjustability, color temperature control, and flicker-free operation for comfortable extended use.",
+      "products": [
+        {
+          "name": "LED Desk Lamp with Adjustable Color Temperature",
+          "image": "",
+          "description": "A desk lamp with adjustable color temperature (typically 2700K-6500K) allows you to switch between warm light for relaxation and cool daylight for focused work. Look for flicker-free models with memory function that remembers your last setting. BenQ, TaoTronics, and Phive make well-reviewed options.",
+          "features": [
+            "Adjustable color temperature for different tasks",
+            "Dimming control for brightness levels",
+            "Flicker-free LED prevents eye fatigue",
+            "Flexible arm for positioning light precisely"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=led+desk+lamp+color+temperature+adjustable&tag=YOUR-TAG-20",
+          "linkText": "View LED desk lamps on Amazon"
+        },
+        {
+          "name": "Monitor Light Bar (Screen-Mounted, Asymmetric)",
+          "image": "",
+          "description": "A light bar that clips to the top of your monitor and illuminates your desk without creating screen glare. Asymmetric light distribution shines downward only. Ideal for workspaces where a traditional desk lamp would take up space. BenQ ScreenBar is the original; budget alternatives from Quntis and Baseus offer similar functionality.",
+          "features": [
+            "Mounts on monitor bezel, takes no desk space",
+            "Asymmetric optics eliminate screen glare",
+            "USB-powered, no wall outlet needed",
+            "Adjustable brightness and color temperature"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=monitor+light+bar&tag=YOUR-TAG-20",
+          "linkText": "View monitor light bars on Amazon"
+        }
+      ]
+    },
+    {
+      "id": "everyday-carry",
+      "number": "04",
+      "title": "Everyday Carry",
+      "intro": "Portable items that prove useful in daily routines. Emphasis on durability and practical utility—things you'll actually carry and use regularly.",
+      "products": [
+        {
+          "name": "Compact Power Bank (10,000mAh, USB-C PD)",
+          "image": "",
+          "description": "A portable battery with USB-C Power Delivery for fast charging phones and tablets. 10,000mAh provides roughly 2-3 full phone charges. Look for models with both USB-C and USB-A ports for compatibility with older devices. Anker, RAVPower, and Nitecore make reliable compact options.",
+          "features": [
+            "10,000mAh capacity in pocket-friendly size",
+            "USB-C PD for 18-20W fast charging",
+            "Pass-through charging while being recharged",
+            "LED indicator shows remaining capacity"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=power+bank+10000mah+usb-c+pd&tag=YOUR-TAG-20",
+          "linkText": "View USB-C power banks on Amazon"
+        },
+        {
+          "name": "Insulated Stainless Steel Water Bottle (18-24oz)",
+          "image": "",
+          "description": "Double-wall vacuum insulation keeps drinks cold for 24 hours or hot for 12. Stainless steel construction is durable and doesn't retain flavors. Wide mouth versions are easier to clean and fit ice cubes. Hydro Flask, Klean Kanteen, and YETI are well-established options; budget brands offer similar performance.",
+          "features": [
+            "Double-wall vacuum insulation",
+            "18/8 food-grade stainless steel",
+            "Wide mouth for easy cleaning and ice",
+            "Powder-coated exterior for grip"
+          ],
+          "amazonUrl": "https://www.amazon.com/s?k=insulated+stainless+steel+water+bottle+wide+mouth&tag=YOUR-TAG-20",
+          "linkText": "View insulated water bottles on Amazon"
+        }
+      ]
+    }
+  ]
+}
