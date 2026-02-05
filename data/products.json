@@ -1,161 +1,52 @@
 {
   "categories": [
     {
-      "id": "desk-accessories",
-      "number": "01",
-      "title": "Desk Accessories",
-      "intro": "A well-organized workspace reduces friction and helps you focus on what matters.",
-      "products": [
-        {
-          "name": "Aluminum Monitor Stand with Storage Drawer",
-          "emoji": "🖥️",
-          "shortDesc": "Elevates monitor, hidden drawer for cables",
-          "description": "Elevates your monitor 4-5 inches to reduce neck strain while providing a hidden drawer for cables, sticky notes, or small accessories. The aluminum construction dissipates heat and supports monitors up to 27 inches.",
-          "features": [
-            "Raises monitor to ergonomic viewing height",
-            "Built-in drawer keeps desk clutter-free",
-            "Aluminum top acts as passive cooling surface",
-            "Non-slip feet prevent sliding"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=aluminum+monitor+stand+with+drawer&tag=curatedpicks0-21",
-          "linkText": "See on Amazon"
-        },
-        {
-          "name": "Under-Desk Cable Management Tray",
-          "emoji": "🔌",
-          "shortDesc": "Mesh tray hides cables and power strips",
-          "description": "A mesh tray that mounts beneath your desk to hold power strips, adapters, and excess cable length. The open mesh design allows airflow to prevent adapter overheating.",
-          "features": [
-            "Mesh construction prevents heat buildup",
-            "Holds standard 6-outlet power strips",
-            "Keeps cables completely hidden from view",
-            "Easy access when you need to add or remove devices"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=under+desk+cable+management+tray+mesh&tag=curatedpicks0-21",
-          "linkText": "Explore on Amazon"
-        },
-        {
-          "name": "Extended Desk Mat",
-          "emoji": "🖱️",
-          "shortDesc": "Large surface pad for keyboard and mouse",
-          "description": "A large surface pad that unifies your keyboard and mouse area while protecting the desk from scratches. Leather options develop patina over time; felt variants offer a softer aesthetic.",
-          "features": [
-            "Covers full keyboard and mouse area",
-            "Stitched edges prevent fraying",
-            "Non-slip rubber backing",
-            "Easy to wipe clean or replace"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=leather+desk+mat+large&tag=curatedpicks0-21",
-          "linkText": "View on Amazon"
-        }
+      "id": "01",
+      "title": "Buy It For Life"
+    },
+    {
+      "id": "02",
+      "title": "Reliable Watches"
+    }
+  ],
+  "products": [
+    {
+      "name": "rOtring 600 Mechanical Pencil",
+      "emoji": "✏️",
+      "shortDesc": "HB 0.5 mm | Green All-Metal Body | Hexagonal Barrel",
+      "description": "The rOtring 600 is a sleek, metal mechanical pencil built with precision and convenience in mind. The full metal body provides balance of weight, ideal for artists, students, and working professionals.",
+      "features": [
+        "Full metal body provides balance of weight, ideal for artists, students, and working professionals.",
+        "Brass mechanism for precision lead advancement, and a fixed lead guidance sleeve to prevent break and offer an unimpeded view of the page for precise ruler—based drawing.",
+        "Hexagonal barrel ensures fatigue-free writing and drawing, and prevents the pencil from sliding when laid on surfaces.",
+        "Non-slip metal knurled grip makes sure that the pencil remains safely in hand so there are no accidental slips.",
+        "Built in erase under the push-button cap for quick erasing, to ensure mistakes aren't permanent.",
+        "Refillable and loaded with high-polymer HB leads.",
+        "Signature rOtring red ring is clear and a symbol of quality and precision."
+      ],
+      "amazonUrl": "https://amzn.to/4r20s16",
+      "linkText": "See on Amazon",
+      "categories": [
+        "01"
       ]
     },
     {
-      "id": "study-essentials",
-      "number": "02",
-      "title": "Study Essentials",
-      "intro": "Tools that support focused learning and information retention.",
-      "products": [
-        {
-          "name": "Hardcover Dot Grid Notebook",
-          "emoji": "📓",
-          "shortDesc": "A5 notebook with 120gsm paper, dot grid",
-          "description": "A versatile notebook format that works for notes, diagrams, sketches, and bullet journaling. The 5mm dot grid provides alignment guides without visual clutter.",
-          "features": [
-            "Dot grid allows both structured and freeform use",
-            "Hardcover protects pages in bags",
-            "Lay-flat binding for comfortable writing",
-            "Numbered pages and index for organization"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=dot+grid+notebook+hardcover+a5&tag=curatedpicks0-21",
-          "linkText": "See on Amazon"
-        },
-        {
-          "name": "Adjustable Book Stand",
-          "emoji": "📖",
-          "shortDesc": "Bamboo or metal, foldable design",
-          "description": "Holds textbooks, cookbooks, or tablets at an adjustable angle for hands-free reading while you type or cook. Metal page holders keep books open.",
-          "features": [
-            "Adjustable angle from 15° to 65°",
-            "Page holders prevent book from closing",
-            "Folds flat to under 2 inches thick",
-            "Supports books up to 4 inches thick"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=adjustable+book+stand+bamboo&tag=curatedpicks0-21",
-          "linkText": "Explore on Amazon"
-        }
-      ]
-    },
-    {
-      "id": "workspace-lighting",
-      "number": "03",
-      "title": "Workspace Lighting",
-      "intro": "Proper lighting reduces eye strain and improves focus during long work sessions.",
-      "products": [
-        {
-          "name": "LED Desk Lamp",
-          "emoji": "💡",
-          "shortDesc": "Adjustable color temperature, flicker-free",
-          "description": "A desk lamp with adjustable color temperature (typically 2700K-6500K) allows you to switch between warm light for relaxation and cool daylight for focused work.",
-          "features": [
-            "Adjustable color temperature for different tasks",
-            "Dimming control for brightness levels",
-            "Flicker-free LED prevents eye fatigue",
-            "Flexible arm for positioning light precisely"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=led+desk+lamp+color+temperature+adjustable&tag=curatedpicks0-21",
-          "linkText": "See on Amazon"
-        },
-        {
-          "name": "Monitor Light Bar",
-          "emoji": "🔆",
-          "shortDesc": "Screen-mounted, no glare, USB-powered",
-          "description": "A light bar that clips to the top of your monitor and illuminates your desk without creating screen glare. Asymmetric light distribution shines downward only.",
-          "features": [
-            "Mounts on monitor bezel, takes no desk space",
-            "Asymmetric optics eliminate screen glare",
-            "USB-powered, no wall outlet needed",
-            "Adjustable brightness and color temperature"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=monitor+light+bar&tag=curatedpicks0-21",
-          "linkText": "View on Amazon"
-        }
-      ]
-    },
-    {
-      "id": "everyday-carry",
-      "number": "04",
-      "title": "Everyday Carry",
-      "intro": "Portable items that prove useful in daily routines.",
-      "products": [
-        {
-          "name": "Compact Power Bank",
-          "emoji": "🔋",
-          "shortDesc": "10,000mAh with USB-C Power Delivery",
-          "description": "A portable battery with USB-C Power Delivery for fast charging phones and tablets. 10,000mAh provides roughly 2-3 full phone charges.",
-          "features": [
-            "10,000mAh capacity in pocket-friendly size",
-            "USB-C PD for 18-20W fast charging",
-            "Pass-through charging while being recharged",
-            "LED indicator shows remaining capacity"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=power+bank+10000mah+usb-c+pd&tag=curatedpicks0-21",
-          "linkText": "Explore on Amazon"
-        },
-        {
-          "name": "Insulated Water Bottle",
-          "emoji": "🧊",
-          "shortDesc": "Stainless steel, keeps drinks cold 24hrs",
-          "description": "Double-wall vacuum insulation keeps drinks cold for 24 hours or hot for 12. Stainless steel construction is durable and doesn't retain flavors.",
-          "features": [
-            "Double-wall vacuum insulation",
-            "18/8 food-grade stainless steel",
-            "Wide mouth for easy cleaning and ice",
-            "Powder-coated exterior for grip"
-          ],
-          "amazonUrl": "https://www.amazon.in/s?k=insulated+stainless+steel+water+bottle+wide+mouth&tag=curatedpicks0-21",
-          "linkText": "View on Amazon"
-        }
+      "name": "Casio Vintage A-158WA-1Q Digital Grey Dial Unisex Watch Silver Metal Strap (D011)",
+      "emoji": "⌚",
+      "shortDesc": "Digital Grey Dial Unisex Watch Silver Metal Strap",
+      "description": "The Casio Vintage A-158WA-1Q is a classic digital watch that combines retro style with modern functionality. It features a grey dial with a rectangular case and a silver metal strap. The watch is water-resistant and has a battery life of up to 7 years.",
+      "features": [
+        "Dial Color: Grey, Case Shape: Rectangular, Dial Glass material: Mineral",
+        "Band Color: Silver, Band Material: Stainless Steel",
+        "Watch Movement Type: Quartz, Watch Display Type: Digital and Stainless Steel Bezel",
+        "Case Material: Stainless Steel, Case Diameter: 32 millimeters , Size of case : 36.8×33.2×8.2mm",
+        "Fold Over Clasp"
+      ],
+      "amazonUrl": "https://amzn.to/3ZjZ9hU",
+      "linkText": "See on Amazon",
+      "categories": [
+        "01",
+        "02"
       ]
     }
   ]

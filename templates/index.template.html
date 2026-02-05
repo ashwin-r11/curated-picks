@@ -43,8 +43,7 @@
             <div class="container">
                 <div class="filter-pills">
                     <button class="filter-pill filter-pill--active" data-filter="all">All</button>
-                    <button class="filter-pill" data-filter="01">Buy It For Life</button>
-          <button class="filter-pill" data-filter="02">Reliable Watches</button>
+                    {{FILTER_PILLS}}
                 </div>
             </div>
         </section>
@@ -53,27 +52,7 @@
         <section class="catalog">
             <div class="container">
                 <div class="product-grid" id="product-grid">
-                    
-          <article class="product-card" data-categories="01">
-            <div class="product-card__image">✏️</div>
-            <div class="product-card__content">
-              <h3 class="product-card__name">rOtring 600 Mechanical Pencil</h3>
-              <p class="product-card__desc">HB 0.5 mm | Green All-Metal Body | Hexagonal Barrel</p>
-              <a href="https://amzn.to/4r20s16" class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
-                See on Amazon
-              </a>
-            </div>
-          </article>
-          <article class="product-card" data-categories="01 02">
-            <div class="product-card__image">⌚</div>
-            <div class="product-card__content">
-              <h3 class="product-card__name">Casio Vintage A-158WA-1Q Digital Grey Dial Unisex Watch Silver Metal Strap (D011)</h3>
-              <p class="product-card__desc">Digital Grey Dial Unisex Watch Silver Metal Strap</p>
-              <a href="https://amzn.to/3ZjZ9hU" class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
-                See on Amazon
-              </a>
-            </div>
-          </article>
+                    {{PRODUCT_CARDS}}
                 </div>
             </div>
         </section>
