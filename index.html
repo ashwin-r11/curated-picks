@@ -18,7 +18,7 @@
     <div class="header__inner">
       <a href="index.html" class="header__logo">Curated Picks</a>
       <nav class="header__nav">
-        <a href="index.html" class="header__link header__link--active">Home</a>
+        <a href="index.html" class="header__link header__link--active">Catalog</a>
         <a href="#about" class="header__link">About</a>
         <a href="privacy.html" class="header__link">Privacy</a>
         <a href="disclosure.html" class="header__link">Disclosure</a>
@@ -27,6 +27,152 @@
   </header>
 
   <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__title">Catalog</h1>
+        <p class="hero__subtitle">
+          Practical products for people who value function over flash.
+          Each recommendation is chosen based on build quality and genuine usefulness.
+        </p>
+      </div>
+    </section>
+
+    <!-- Filter Pills -->
+    <section class="filter-section">
+      <div class="container">
+        <div class="filter-pills">
+          <button class="filter-pill filter-pill--active" data-filter="all">All</button>
+          <button class="filter-pill" data-filter="desk-accessories">Desk</button>
+          <button class="filter-pill" data-filter="study-essentials">Study</button>
+          <button class="filter-pill" data-filter="workspace-lighting">Lighting</button>
+          <button class="filter-pill" data-filter="everyday-carry">EDC</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Grid -->
+    <section class="catalog">
+      <div class="container">
+        <div class="product-grid" id="product-grid">
+          <!-- Products loaded via JS, fallback static content below -->
+
+          <!-- Desk Accessories -->
+          <article class="product-card" data-category="desk-accessories">
+            <div class="product-card__image">🖥️</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Aluminum Monitor Stand with Storage Drawer</h3>
+              <p class="product-card__desc">Elevates monitor, hidden drawer for cables</p>
+              <a href="https://www.amazon.in/s?k=aluminum+monitor+stand+with+drawer&tag=curatedpicks0-21"
+                class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
+                See on Amazon
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="desk-accessories">
+            <div class="product-card__image">🔌</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Under-Desk Cable Management Tray</h3>
+              <p class="product-card__desc">Mesh tray hides cables and power strips</p>
+              <a href="https://www.amazon.in/s?k=under+desk+cable+management+tray+mesh&tag=curatedpicks0-21"
+                class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
+                Explore on Amazon
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="desk-accessories">
+            <div class="product-card__image">🖱️</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Extended Desk Mat</h3>
+              <p class="product-card__desc">Large surface pad for keyboard and mouse</p>
+              <a href="https://www.amazon.in/s?k=leather+desk+mat+large&tag=curatedpicks0-21" class="product-card__link"
+                rel="nofollow noopener sponsored" target="_blank">
+                View on Amazon
+              </a>
+            </div>
+          </article>
+
+          <!-- Study Essentials -->
+          <article class="product-card" data-category="study-essentials">
+            <div class="product-card__image">📓</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Hardcover Dot Grid Notebook</h3>
+              <p class="product-card__desc">A5 notebook with 120gsm paper, dot grid</p>
+              <a href="https://www.amazon.in/s?k=dot+grid+notebook+hardcover+a5&tag=curatedpicks0-21"
+                class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
+                See on Amazon
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="study-essentials">
+            <div class="product-card__image">📖</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Adjustable Book Stand</h3>
+              <p class="product-card__desc">Bamboo or metal, foldable design</p>
+              <a href="https://www.amazon.in/s?k=adjustable+book+stand+bamboo&tag=curatedpicks0-21"
+                class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
+                Explore on Amazon
+              </a>
+            </div>
+          </article>
+
+          <!-- Workspace Lighting -->
+          <article class="product-card" data-category="workspace-lighting">
+            <div class="product-card__image">💡</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">LED Desk Lamp</h3>
+              <p class="product-card__desc">Adjustable color temperature, flicker-free</p>
+              <a href="https://www.amazon.in/s?k=led+desk+lamp+color+temperature+adjustable&tag=curatedpicks0-21"
+                class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
+                See on Amazon
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="workspace-lighting">
+            <div class="product-card__image">🔆</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Monitor Light Bar</h3>
+              <p class="product-card__desc">Screen-mounted, no glare, USB-powered</p>
+              <a href="https://www.amazon.in/s?k=monitor+light+bar&tag=curatedpicks0-21" class="product-card__link"
+                rel="nofollow noopener sponsored" target="_blank">
+                View on Amazon
+              </a>
+            </div>
+          </article>
+
+          <!-- Everyday Carry -->
+          <article class="product-card" data-category="everyday-carry">
+            <div class="product-card__image">🔋</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Compact Power Bank</h3>
+              <p class="product-card__desc">10,000mAh with USB-C Power Delivery</p>
+              <a href="https://www.amazon.in/s?k=power+bank+10000mah+usb-c+pd&tag=curatedpicks0-21"
+                class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
+                Explore on Amazon
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-category="everyday-carry">
+            <div class="product-card__image">🧊</div>
+            <div class="product-card__content">
+              <h3 class="product-card__name">Insulated Water Bottle</h3>
+              <p class="product-card__desc">Stainless steel, keeps drinks cold 24hrs</p>
+              <a href="https://www.amazon.in/s?k=insulated+stainless+steel+water+bottle+wide+mouth&tag=curatedpicks0-21"
+                class="product-card__link" rel="nofollow noopener sponsored" target="_blank">
+                View on Amazon
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
     <!-- About Section -->
     <section class="about-section" id="about">
       <div class="container">
@@ -38,322 +184,12 @@
           </p>
           <p>
             Instead of ranking dozens of products, we highlight a smaller set that stands out
-            for function, design, or long-term usefulness. Each recommendation solves a specific
-            need — not trends or promotions.
+            for function, design, or long-term usefulness.
           </p>
           <p class="about-section__note">
             Some links lead to Amazon. Purchases through them may earn a small commission at
             no extra cost to you. This supports the site but doesn't influence what we feature.
           </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Overview Section -->
-    <section class="hero">
-      <div class="container">
-        <h1 class="hero__title">Thoughtfully<br>Selected Products</h1>
-        <div class="hero__desc">
-          <p>
-            This site curates practical products for people who value function over flash.
-            Each recommendation is chosen based on build quality, everyday utility, and
-            genuine usefulness—not trends or marketing hype.
-          </p>
-          <p>
-            Whether you're setting up a focused workspace, optimizing your study routine,
-            or simply looking for reliable everyday tools, you'll find straightforward
-            recommendations here. No pressure, no urgency—just honest picks.
-          </p>
-          <p>
-            <strong>Who this is for:</strong> Students, remote workers, makers, and anyone
-            who appreciates well-designed, functional products that solve real problems.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Category 1: Desk Accessories -->
-    <section class="category" id="desk-accessories">
-      <div class="container">
-        <div class="category__header">
-          <div class="category__number">Category 01</div>
-          <h2 class="category__title">Desk Accessories</h2>
-          <p class="category__intro">
-            A well-organized workspace reduces friction and helps you focus on what matters.
-            These picks prioritize clean design, durability, and genuine functionality over gimmicks.
-          </p>
-        </div>
-        <div class="category__products">
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Aluminum Monitor Stand with Storage Drawer</h3>
-              <p class="product-block__desc">
-                Elevates your monitor 4-5 inches to reduce neck strain while providing a hidden
-                drawer for cables, sticky notes, or small accessories. The aluminum construction
-                dissipates heat and supports monitors up to 27 inches. Common options include
-                models from VAYDEER, Grovemade, and similar manufacturers.
-              </p>
-              <ul class="product-block__features">
-                <li>Raises monitor to ergonomic viewing height</li>
-                <li>Built-in drawer keeps desk clutter-free</li>
-                <li>Aluminum top acts as passive cooling surface</li>
-                <li>Non-slip feet prevent sliding</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=aluminum+monitor+stand+with+drawer&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  See aluminum monitor stands on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Under-Desk Cable Management Tray (Mesh Steel)</h3>
-              <p class="product-block__desc">
-                A mesh tray that mounts beneath your desk to hold power strips, adapters, and
-                excess cable length. The open mesh design allows airflow to prevent adapter
-                overheating. Popular models from J Channel, VIVO, and similar brands install
-                with screws or heavy-duty adhesive.
-              </p>
-              <ul class="product-block__features">
-                <li>Mesh construction prevents heat buildup</li>
-                <li>Holds standard 6-outlet power strips</li>
-                <li>Keeps cables completely hidden from view</li>
-                <li>Easy access when you need to add or remove devices</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=under+desk+cable+management+tray+mesh&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  Explore cable management trays on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Extended Desk Mat (Leather or Felt, 80x40cm)</h3>
-              <p class="product-block__desc">
-                A large surface pad that unifies your keyboard and mouse area while protecting
-                the desk from scratches. Leather options develop patina over time; felt variants
-                offer a softer aesthetic. Look for sizes around 80x40cm (31x16 inches) for full
-                keyboard coverage. Available from Orbitkey, Grovemade, and various manufacturers.
-              </p>
-              <ul class="product-block__features">
-                <li>Covers full keyboard and mouse area</li>
-                <li>Stitched edges prevent fraying</li>
-                <li>Non-slip rubber backing</li>
-                <li>Easy to wipe clean or replace</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=leather+desk+mat+large&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  View desk mats on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Category 2: Study Essentials -->
-    <section class="category" id="study-essentials">
-      <div class="container">
-        <div class="category__header">
-          <div class="category__number">Category 02</div>
-          <h2 class="category__title">Study Essentials</h2>
-          <p class="category__intro">
-            Tools that support focused learning and information retention. These picks are
-            practical staples rather than novelty items—things that actually get used day after day.
-          </p>
-        </div>
-        <div class="category__products">
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Hardcover Dot Grid Notebook (A5, 120gsm Paper)</h3>
-              <p class="product-block__desc">
-                A versatile notebook format that works for notes, diagrams, sketches, and bullet
-                journaling. The 5mm dot grid provides alignment guides without visual clutter.
-                Look for 120gsm+ paper to prevent bleed-through with most pens. Popular options
-                include Leuchtturm1917, Rhodia, and Moleskine.
-              </p>
-              <ul class="product-block__features">
-                <li>Dot grid allows both structured and freeform use</li>
-                <li>Hardcover protects pages in bags</li>
-                <li>Lay-flat binding for comfortable writing</li>
-                <li>Numbered pages and index for organization</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=dot+grid+notebook+hardcover+a5&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  See dot grid notebooks on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Adjustable Book Stand (Bamboo or Metal, Foldable)</h3>
-              <p class="product-block__desc">
-                Holds textbooks, cookbooks, or tablets at an adjustable angle for hands-free
-                reading while you type or cook. Metal page holders keep books open. Foldable
-                designs pack flat for storage or travel. Bamboo versions offer a warm aesthetic;
-                metal versions are more durable.
-              </p>
-              <ul class="product-block__features">
-                <li>Adjustable angle from 15° to 65°</li>
-                <li>Page holders prevent book from closing</li>
-                <li>Folds flat to under 2 inches thick</li>
-                <li>Supports books up to 4 inches thick</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=adjustable+book+stand+bamboo&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  Explore book stands on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Category 3: Workspace Lighting -->
-    <section class="category" id="workspace-lighting">
-      <div class="container">
-        <div class="category__header">
-          <div class="category__number">Category 03</div>
-          <h2 class="category__title">Workspace Lighting</h2>
-          <p class="category__intro">
-            Proper lighting reduces eye strain and improves focus during long work sessions.
-            These picks emphasize adjustability, color temperature control, and flicker-free
-            operation for comfortable extended use.
-          </p>
-        </div>
-        <div class="category__products">
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">LED Desk Lamp with Adjustable Color Temperature</h3>
-              <p class="product-block__desc">
-                A desk lamp with adjustable color temperature (typically 2700K-6500K) allows
-                you to switch between warm light for relaxation and cool daylight for focused
-                work. Look for flicker-free models with memory function that remembers your
-                last setting. BenQ, TaoTronics, and Phive make well-reviewed options.
-              </p>
-              <ul class="product-block__features">
-                <li>Adjustable color temperature for different tasks</li>
-                <li>Dimming control for brightness levels</li>
-                <li>Flicker-free LED prevents eye fatigue</li>
-                <li>Flexible arm for positioning light precisely</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=led+desk+lamp+color+temperature+adjustable&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  See LED desk lamps on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Monitor Light Bar (Screen-Mounted, Asymmetric)</h3>
-              <p class="product-block__desc">
-                A light bar that clips to the top of your monitor and illuminates your desk
-                without creating screen glare. Asymmetric light distribution shines downward
-                only. Ideal for workspaces where a traditional desk lamp would take up space.
-                BenQ ScreenBar is the original; budget alternatives from Quntis and Baseus
-                offer similar functionality.
-              </p>
-              <ul class="product-block__features">
-                <li>Mounts on monitor bezel, takes no desk space</li>
-                <li>Asymmetric optics eliminate screen glare</li>
-                <li>USB-powered, no wall outlet needed</li>
-                <li>Adjustable brightness and color temperature</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=monitor+light+bar&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  View monitor light bars on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- Category 4: Everyday Carry -->
-    <section class="category" id="everyday-carry">
-      <div class="container">
-        <div class="category__header">
-          <div class="category__number">Category 04</div>
-          <h2 class="category__title">Everyday Carry</h2>
-          <p class="category__intro">
-            Portable items that prove useful in daily routines. Emphasis on durability
-            and practical utility—things you'll actually carry and use regularly.
-          </p>
-        </div>
-        <div class="category__products">
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Compact Power Bank (10,000mAh, USB-C PD)</h3>
-              <p class="product-block__desc">
-                A portable battery with USB-C Power Delivery for fast charging phones and
-                tablets. 10,000mAh provides roughly 2-3 full phone charges. Look for models
-                with both USB-C and USB-A ports for compatibility with older devices.
-                Anker, RAVPower, and Nitecore make reliable compact options.
-              </p>
-              <ul class="product-block__features">
-                <li>10,000mAh capacity in pocket-friendly size</li>
-                <li>USB-C PD for 18-20W fast charging</li>
-                <li>Pass-through charging while being recharged</li>
-                <li>LED indicator shows remaining capacity</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=power+bank+10000mah+usb-c+pd&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  Explore USB-C power banks on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
-          <article class="product-block">
-            <div class="product-block__content">
-              <h3 class="product-block__name">Insulated Stainless Steel Water Bottle (18-24oz)</h3>
-              <p class="product-block__desc">
-                Double-wall vacuum insulation keeps drinks cold for 24 hours or hot for 12.
-                Stainless steel construction is durable and doesn't retain flavors. Wide mouth
-                versions are easier to clean and fit ice cubes. Hydro Flask, Klean Kanteen,
-                and YETI are well-established options; budget brands offer similar performance.
-              </p>
-              <ul class="product-block__features">
-                <li>Double-wall vacuum insulation</li>
-                <li>18/8 food-grade stainless steel</li>
-                <li>Wide mouth for easy cleaning and ice</li>
-                <li>Powder-coated exterior for grip</li>
-              </ul>
-              <p class="product-block__link">
-                <a href="https://www.amazon.in/s?k=insulated+stainless+steel+water+bottle+wide+mouth&tag=curatedpicks0-21"
-                  rel="nofollow noopener sponsored" target="_blank">
-                  View insulated water bottles on Amazon →
-                </a>
-              </p>
-            </div>
-          </article>
-
         </div>
       </div>
     </section>
@@ -369,7 +205,7 @@
         our recommendations or your purchase price.
       </p>
       <div class="footer__links">
-        <a href="index.html" class="footer__link">Home</a>
+        <a href="index.html" class="footer__link">Catalog</a>
         <a href="privacy.html" class="footer__link">Privacy Policy</a>
         <a href="disclosure.html" class="footer__link">Affiliate Disclosure</a>
       </div>
@@ -379,6 +215,35 @@
       </p>
     </div>
   </footer>
+
+  <!-- Filter Script -->
+  <script>
+    (function () {
+      'use strict';
+
+      const pills = document.querySelectorAll('.filter-pill');
+      const cards = document.querySelectorAll('.product-card');
+
+      pills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          // Update active pill
+          pills.forEach(p => p.classList.remove('filter-pill--active'));
+          pill.classList.add('filter-pill--active');
+
+          const filter = pill.dataset.filter;
+
+          // Filter cards
+          cards.forEach(card => {
+            if (filter === 'all' || card.dataset.category === filter) {
+              card.classList.remove('product-card--hidden');
+            } else {
+              card.classList.add('product-card--hidden');
+            }
+          });
+        });
+      });
+    })();
+  </script>
 
 </body>
 
