@@ -5,14 +5,17 @@ on:
     branches:
       - main
     paths:
-      - 'data/products.json'
-      - 'templates/**'
-      - 'scripts/build.js'
+      - "data/products.json"
+      - "templates/**"
+      - "scripts/build.js"
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Run build script
         run: node scripts/build.js
