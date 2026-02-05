@@ -30,7 +30,7 @@
           <p class="product-block__desc">${escapeHtml(product.description)}</p>
           <ul class="product-block__features">${featuresHtml}</ul>
           <p class="product-block__link">
-            <a href="${escapeHtml(product.amazonUrl)}" rel="nofollow sponsored" target="_blank">
+            <a href="${escapeHtml(product.amazonUrl)}" rel="nofollow noopener sponsored" target="_blank">
               ${escapeHtml(product.linkText)} →
             </a>
           </p>
